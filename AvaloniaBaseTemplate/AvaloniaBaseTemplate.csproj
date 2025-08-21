@@ -11,6 +11,7 @@
     <Platforms>x64;ARM64</Platforms>
 	<RuntimeIdentifiers>win-x64;win-arm64;osx-x64;osx-arm64;linux-x64;linux-arm64</RuntimeIdentifiers>
 	<SelfContained Condition="'$(Configuration)' == 'Release'">true</SelfContained>
+	<ApplicationIcon>assets/app.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,5 +24,15 @@
       <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
       <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets/app.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <AvaloniaResource Include="assets/**" />
   </ItemGroup>
 </Project>

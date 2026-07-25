@@ -54,6 +54,7 @@ cd $SHELL_PATH
 # Build project
 for file in *.sln; do
     dotnet msbuild "-t:Restore;Rebuild" "-p:Configuration=Release;RuntimeIdentifier=$runtime_id;PlatformTarget=$target_id" "$file"
+	break
 done
 
 # End

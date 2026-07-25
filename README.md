@@ -1,15 +1,15 @@
 # Avalonia UI ~ Base Project Template
 This is a generic repository with a basic project template for [Avalonia UI](https://avaloniaui.net) desktop apps.</br>
-This project is currently using version **11.3.4** of Avalonia UI.
+This project is currently using version **12.1.0** of Avalonia UI.
 
 ## Requirements
 
 + x64 or ARM64 CPU
 + Windows, Linux or MacOSX
-+ [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
++ [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
-> **NOTE:** Although the repository contains files intended for the Visual Studio 2022 IDE, installing it is completely *optional*.
-> The only real requirement is having the ```.NET 8 SDK``` installed on your machine.
+> **NOTE:** Although the repository contains files intended for the Visual Studio 2026 IDE, installing it is completely *optional*.
+> The only real requirement is having the ```.NET 10 SDK``` installed on your machine.
 > Aside from that, you can use any IDE that you prefer.
 
 ## Building

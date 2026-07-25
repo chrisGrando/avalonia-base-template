@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12021.73 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaBaseTemplate", "AvaloniaBaseTemplate\AvaloniaBaseTemplate.csproj", "{DFBD71D3-8B7F-4FA6-AE49-B9D7F65CCC5F}"
 EndProject

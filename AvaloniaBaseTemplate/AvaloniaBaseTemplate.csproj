@@ -14,7 +14,7 @@
 	<SelfContained Condition="'$(Configuration)' == 'Release'">true</SelfContained>
 	<ApplicationIcon>assets/app.ico</ApplicationIcon>
 	<IntermediateOutputPath>$(SolutionDir)bin/intdir/</IntermediateOutputPath>
-	<OutDir>$(SolutionDir)bin/$(PlatformTarget)/$(Configuration)/</OutDir>
+	<OutDir>$(SolutionDir)bin/$(RuntimeIdentifier)/$(Configuration)/</OutDir>
   </PropertyGroup>
 
   <ItemGroup>

@@ -62,7 +62,9 @@ cd %~dp0
 
 :: Build project
 for %%F in (*.sln) do (
-	dotnet msbuild -t:Restore;Rebuild -p:Configuration=Release;RuntimeIdentifier=%runtime_id%;PlatformTarget=%target_id% %%F
+	call dotnet clean
+	call dotnet restore
+	call dotnet msbuild -t:Restore;Rebuild -p:Configuration=Release;RuntimeIdentifier=%runtime_id%;PlatformTarget=%target_id% %%F
 	goto :DONE
 )
 

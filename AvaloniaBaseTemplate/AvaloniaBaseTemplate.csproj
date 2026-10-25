@@ -30,7 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="assets/app.ico"/>
+    <EmbeddedResource Include="assets/**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   
   <ItemGroup>

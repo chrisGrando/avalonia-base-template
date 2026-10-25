@@ -59,4 +59,4 @@ done
 
 # End
 read -n 1 -p "* Press any key to exit *" -s null
-echo ""
+echo -e "\n"

@@ -38,4 +38,8 @@
   <ItemGroup>
     <AvaloniaResource Include="assets/**"/>
   </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Include="../AssemblyInfo.cs" />
+  </ItemGroup>
 </Project>
